@@ -1,0 +1,23 @@
+body {
+  background-color: #333;
+  color: white;
+}
+
+.countries {
+  display: grid;
+  grid-template-columns: repeat(4, 20rem);
+  justify-content: center;
+  gap: 2rem;
+}
+
+.countries .countries__card {
+  border-radius: 10px;
+  background-color: #928f8f;
+}
+
+.countries .countries__card .countries__img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 20rem;
+  height: 13rem;
+}
